@@ -49,6 +49,6 @@ let myGmailname = "ankitarya@gmail.com"
  }
 
  let userTwo= {
-    email:"arya",,
+    email:"arya",
     age:23
  }
