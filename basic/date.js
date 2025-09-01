@@ -18,6 +18,21 @@ console.log(mynewDate.toString())
 
 let myTimeStamp = Date.now()
     console.log(myTimeStamp)
-    console.log()
+    console.log(myCreateDate.getTime())
+    //for second
+    console.log(Date.now()/1000)
+
+    let newDate = new Date()
+    console.log(newDate)
+    console.log(newDate.getMonth()+1)
+    console.log(newDate.getDay)
+
+    newDate.toLocaleStringa('default',
+        {
+            weekday: "long"
+        
+        }
+    )
+    
 
 
